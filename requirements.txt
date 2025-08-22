@@ -1,0 +1,23 @@
+# Core ML dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+datasets>=2.12.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# Web interface
+gradio>=3.35.0
+fastapi>=0.100.0
+uvicorn>=0.22.0
+
+# Data handling
+pandas>=2.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+fire
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
