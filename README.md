@@ -30,7 +30,6 @@ pip install -e .
 ```bash
 python app/gradio_app.py
 ```
-Open http://localhost:7860 in your browser.
 
 ### Command Line Usage
 
@@ -49,9 +48,9 @@ python scripts/run_pipeline.py --text "A young woman with long black hair and bl
 python scripts/run_pipeline.py --directory path/to/images/
 ```
 
-**Process HuggingFace dataset:**
+**Process HuggingFace dataset(https://huggingface.co/datasets/cagliostrolab/860k-ordered-tags ):**
 ```bash
-python scripts/process_dataset.py --dataset cagliostrolab/860k-ordered-tags --samples 1000
+python scripts/process_danbooru_hf.py process --samples=100 --batch_size=16
 ```
 
 ## 🏗️ Architecture
